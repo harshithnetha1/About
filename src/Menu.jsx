@@ -32,24 +32,24 @@ export default function Menu() {
       <div style={{ position: 'relative', minHeight: '100vh', overflow:'hidden' }}>
         {/* Video background */}
         <video
-          autoPlay
-          loop
-          muted
-          playsInline
-          className="video-background"
-          style={{
-            position: 'absolute',
-            top: 0,
-            left: 0,
-            width: '100%',
-            height: '100%',
-            objectFit: 'cover',
-            zIndex: -1,
-          }}
-        >
-          <source src="/N.mp4" type="video/mp4" className="videos" />
-          Your browser does not support the video tag.
-        </video>
+  autoPlay
+  loop
+  muted
+  playsInline
+  className="video-background"
+  style={{
+    position: 'absolute',
+    top: 0,
+    left: 0,
+    width: '100%',
+    height: '100%',
+    objectFit: 'cover',
+    zIndex: -1,
+  }}
+>
+  <source src="216463.mp4" type="video/mp4" className="videos" />
+  Your browser does not support the video tag.
+</video>
         <div style={{ position: 'relative', zIndex: 1 }}>
           <Navbar expand="lg" style={{ position: 'absolute', top: 0, width: '100%',paddingBottom:'0px' }}>
             <Container>
